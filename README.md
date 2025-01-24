@@ -34,3 +34,15 @@
 # limitations under the License.
 #
 ```
+
+## Build cm-14.1 for mocha (Use the following command in the source code root directory)
+
+m device/xiaomi/mocha/flex-2.5.39 prebuilts/misc/linux-x86/flex/flex-2.5.39
+
+. build/envsetup.sh
+
+bash device/xiaomi/mocha/patches/check.sh
+
+bash device/xiaomi/mocha/patches/install.sh
+
+brunch mocha
