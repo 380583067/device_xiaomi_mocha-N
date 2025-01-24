@@ -15,9 +15,6 @@
 | Display                 | 1536 x 2048 pixels                |
 | Release Date            | July 29, 2014                     |
 
-## Device Picture
-![Nvidia SHIELD Tablet ](http://shield.nvidia.co.uk/images/home-page-sections/shield-tablet-controller-header-image.png "Nvidia SHIELD Tablet")
-
 ## Copyright
 
 ```
