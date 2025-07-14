@@ -31,7 +31,7 @@ TARGET_SCREEN_WIDTH := 1536
 TARGET_TEGRA_VERSION := t124
 
 # Audio
- PRODUCT_PACKAGES += \
+PRODUCT_PACKAGES += \
     android.hardware.audio@2.0 \
     android.hardware.audio@2.0-impl \
     android.hardware.audio@2.0-service \
@@ -120,10 +120,10 @@ PRODUCT_PACKAGES += \
 # FM
 PRODUCT_PACKAGES += \
     android.hardware.broadcastradio@1.0-impl \
-#    FMRadio \
-#    brcm-uim-sysfs \
-#    libfmjni \
-#    libfmradio.v4l2-fm
+    FMRadio \
+    brcm-uim-sysfs \
+    libfmjni \
+    libfmradio.v4l2-fm
 
 # Gatekeeper
 PRODUCT_PACKAGES += \
@@ -230,7 +230,7 @@ PRODUCT_COPY_FILES += \
 # Power
 PRODUCT_PACKAGES += \
     android.hardware.power@1.0-service.mocha \
-    power.tegra
+    vendor.lineage.power@1.0
 
 # Product
 PRODUCT_CHARACTERISTICS := tablet
